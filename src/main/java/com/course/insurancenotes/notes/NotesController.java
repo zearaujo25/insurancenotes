@@ -24,8 +24,6 @@ public class NotesController {
         return new ModelAndView("notes/done.html","note", note);
     }
 
-
-
     private static Note getNotes(Integer userId) {
         return new Note(userId, "A random note");
     }
